@@ -6,3 +6,16 @@ Accept: application/json
     "email": "root@gmail.com",
     "password": "root"
 }
+
+###
+
+POST https://localhost:8000/api/login/register
+Content-Type: application/json
+Accept: application/json
+
+{
+"email": "kt@gmail.com",
+"password": "root",
+    "firstName": "Kingsley",
+    "lastName": "Thomas"
+}
